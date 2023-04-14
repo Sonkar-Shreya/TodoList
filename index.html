@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoList</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="inputField">
+
+            <img src="img/icons8-todo-list-50.png" alt="image" id="icon">
+            <input id="input" placeholder="Type your todo here">
+            <img src="img/add.png" alt="add" onclick="addTodo()" id="addButton">
+        </div>
+        <div id="list">Todo is Empty</div>
+        <div id="footer">
+            Task left:
+            <span id="countTask"></span>
+            
+        </div>
+        
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
