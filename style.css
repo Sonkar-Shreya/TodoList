@@ -26,6 +26,12 @@
     align-items: center;
     justify-content: center;
     padding: 1%;
+    border-top:3px solid rgb(176, 200, 176);
+    border-left:3px solid rgb(176, 200, 176);
+    border-right:7px solid rgb(176, 200, 176);
+
+
+
 }
 #input{
     width: 80%;
@@ -35,6 +41,7 @@
     border-radius: 10px;
     font-size: large;
     padding-left: 10px;
+    
 }
 #icon{
     width: 14%;
@@ -46,9 +53,20 @@
     padding-bottom: 1%;
     padding-left: 1%;
     padding-right: 1%;
+    /* border:3px solid rgb(176, 200, 176); */
+    border:1px solid rgb(176, 200, 176);
+    border-left:3px solid rgb(176, 200, 176);
+    border-right:7px solid rgb(176, 200, 176);
+
+
+    
+    border-top: none;
+
+
 
 
 }
+
 
 #footer{
     background-color: white;
@@ -57,4 +75,10 @@
     padding-bottom: 1%;
     padding-left: 1%;
     padding-right: 1%;
+    border-bottom:7px solid rgb(176, 200, 176);
+    padding-top: 12px;
+    border-left:3px solid rgb(176, 200, 176);
+    border-right:7px solid rgb(176, 200, 176);
+
+
 }
